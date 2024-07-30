@@ -80,6 +80,11 @@ YYYY-MM-DD ~ YYYY-MM-DD
 <br><br><br>
 
 
+## 주요 프로시저
+
+![image](https://github.com/user-attachments/assets/f1973ed6-8d8e-494e-8269-c3041eccda30)
+
+
 ##  프로젝트 결과 
 - 테스트/ 시연 이미지 삽입
 
