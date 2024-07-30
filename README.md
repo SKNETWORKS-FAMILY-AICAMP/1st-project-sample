@@ -55,6 +55,15 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 <br><br><br>
 
+## WBS 
+| 000님 (팀장) | 000님 | 000님 | 000님 |
+|:----------:|:----------:|:----------:|:----------:|
+|DB 설계<br>Streamlit 화면 구성|자동차 등록 현황 crawling|Streamlit 화면 구성|FAQ crawling|
+
+
+
+<br><br><br>
+
 
 ## 기술 스텍
 | Data Modeling | DB | Front-End |
@@ -63,10 +72,11 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 <br><br><br>
 
+
+
 ## 요구사항 명세서
 [요구사항 명세서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
 
-![요구사항 명세서 이미지](이미지_경로_또는_URL)
 
 
 
@@ -74,15 +84,19 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 ## ERD 설계서
 [ ERD 설계서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
+![image](https://github.com/user-attachments/assets/f16d790a-460d-4aec-bc43-4fdf53e6b071)
 
-![ERD 이미지](이미지_경로_또는_URL)
+
 
 <br><br><br>
 
 
 ## 주요 프로시저
+![image](https://github.com/user-attachments/assets/92f489bb-abaf-4603-a160-b95fe4502661)
 
-![image](https://github.com/user-attachments/assets/f1973ed6-8d8e-494e-8269-c3041eccda30)
+<br><br><br>
+
+
 
 
 ##  프로젝트 결과 
@@ -96,6 +110,49 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 <br><br><br>
 
+
+
+## 개발 규칙 
+**Code Convention**
+- 패키지명 전체 소문자
+- 클래스명, 인터페이스명 CamelCase
+- 클래스 이름 명사 사용
+- 상수명 SNAKE_CASE
+
+
+**Git Branch 전략**
+유형별로 구분하여 작성
+- **feat** : 새로운 기능 추가
+- **fix** : 버그 수정
+- **docs** : 문서 수정
+- **style** : (코드의 수정 없이) 스타일(style)만 변경(들여쓰기 같은 포맷이나 세미콜론을 빼먹은 경우)
+- **refactor** : 코드 리펙토링
+- **test** : Test 관련한 코드의 추가, 수정
+- **chore** : (코드의 수정 없이) 설정 변경
+
+**협업 Rules**
+- Discord ,Notion 활용
+- 지각이나 결석은 꼭 말해주기 
+
+
+<br><br><br>
+
+
+## 오류 해결 과정
+### 페이지 로딩 시간 초과
+- **문제**: 페이지 로딩 시간이 오래 걸려 타임아웃 오류 발생.
+- **해결**: 로딩 시간을 연장하거나, 페이지가 로드되기 전에 필요한 데이터만 우선적으로 로드하도록 수정.
+
+### API 응답 지연
+- **문제**: 외부 API 응답이 지연되어 데이터 수집에 차질 발생.
+- **해결**: 비동기 요청을 사용하여 API 응답을 기다리는 동안 다른 작업을 수행하도록 개선. 또한, 응답 지연 시 재시도 로직 추가.
+
+### 데이터 저장 시 데이터베이스 연결 오류
+- **문제**: 데이터 저장 과정에서 데이터베이스 연결 오류 발생.
+- **해결**: 연결 타임아웃 시간을 늘리고, 연결 재시도 로직을 추가하여 안정성을 향상.
+
+
+<br><br><br>
 
 
 ##  한줄 회고 
