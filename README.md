@@ -66,7 +66,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 ## 요구사항 명세서
 [요구사항 명세서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
 
-![이미지 설명](이미지_경로_또는_URL)
+![요구사항 명세서 이미지](이미지_경로_또는_URL)
 
 
 
@@ -75,7 +75,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 ## ERD 설계서
 [ ERD 설계서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
 
-![이미지 설명](이미지_경로_또는_URL)
+![ERD 이미지](이미지_경로_또는_URL)
 
 <br><br><br>
 
@@ -91,10 +91,9 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 <br><br><br>
 
+
+
 ##  한줄 회고 
 
 
-
-
-##  한줄 회고
 
