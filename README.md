@@ -1,8 +1,15 @@
 # 1st-project-sample
-## 팀 소개
+### 프로그래밍과 데이터 기초 교과목 단위 프로젝트 SR(Software Requirement) 안내 
+수강생들이 아래 ReadMe.md 가이드에 맞게 프로젝트를 기획하고 개발할 수 있도록 돕습니다. 
+
+
+<br><br><br>
+
+
+## 1. 팀 소개
 ### 팀명 : BMW 팀
 ### 팀원 소개
-
+- 멤버 개인 깃허브 계정과 연동
 <table align="center">
   <tbody>
     <tr>
@@ -36,7 +43,7 @@
 
 <br><br><br>
 
-## 프로젝트 개요 
+## 2. 프로젝트 개요 
 ### 개발 기간 
 YYYY-MM-DD ~ YYYY-MM-DD
 ### 프로젝트 명 
@@ -55,7 +62,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 <br><br><br>
 
-## WBS 
+## 3. WBS 
 | 000님 (팀장) | 000님 | 000님 | 000님 |
 |:----------:|:----------:|:----------:|:----------:|
 |DB 설계<br>Streamlit 화면 구성|자동차 등록 현황 crawling|Streamlit 화면 구성|FAQ crawling|
@@ -65,7 +72,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 <br><br><br>
 
 
-## 기술 스텍
+## 4. 기술 스텍
 | Data Modeling | DB | Front-End |
 |-------------|--------|-------------|
 | ![BeautifulSoup](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![requests](https://img.shields.io/badge/requests-3776AB?style=for-the-badge&logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white) | ![streamlit](https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![folium](https://img.shields.io/badge/folium-77B829?style=for-the-badge&logo=folium&logoColor=white) 
@@ -74,16 +81,16 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 
 
-## 요구사항 명세서
-[요구사항 명세서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
-
+## 5. 요구사항 명세서
+[요구사항 명세서 템플릿 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
+![image](https://github.com/user-attachments/assets/9b6ca273-2688-49d6-a517-7a1145f5018c)
 
 
 
 <br><br><br>
 
-## ERD 설계서
-[ ERD 설계서 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
+## 6. ERD 설계서
+[ ERD 설계서 템플릿 예시](https://www.erdcloud.com/d/TzHsgqxPRGzWGzytR)
 ![image](https://github.com/user-attachments/assets/f16d790a-460d-4aec-bc43-4fdf53e6b071)
 
 
@@ -91,7 +98,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 <br><br><br>
 
 
-## 주요 프로시저
+## 7. 주요 프로시저
 ![image](https://github.com/user-attachments/assets/92f489bb-abaf-4603-a160-b95fe4502661)
 
 <br><br><br>
@@ -99,7 +106,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 
 
-##  프로젝트 결과 
+##  8. 프로젝트 결과 
 - 테스트/ 시연 이미지 삽입
 
 | 차량 소비자 증가 그래프 | 국산 차량 브랜드 순위 | 
@@ -112,8 +119,8 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 
 
-## 개발 규칙 
-**Code Convention**
+## 9. 개발 규칙 
+**Code 작성 규칙**
 - 패키지명 전체 소문자
 - 클래스명, 인터페이스명 CamelCase
 - 클래스 이름 명사 사용
@@ -121,7 +128,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 
 **Git Branch 전략**
-유형별로 구분하여 작성
+유형별로 구분하여 작성하고 Git Flow 적용
 - **feat** : 새로운 기능 추가
 - **fix** : 버그 수정
 - **docs** : 문서 수정
@@ -138,7 +145,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 <br><br><br>
 
 
-## 오류 해결 과정
+## 10. 오류 해결 과정
 ### 페이지 로딩 시간 초과
 - **문제**: 페이지 로딩 시간이 오래 걸려 타임아웃 오류 발생.
 - **해결**: 로딩 시간을 연장하거나, 페이지가 로드되기 전에 필요한 데이터만 우선적으로 로드하도록 수정.
@@ -155,7 +162,7 @@ YYYY-MM-DD ~ YYYY-MM-DD
 <br><br><br>
 
 
-##  한줄 회고 
+##  11. 한줄 회고 
 데이터 수집과 분석을 통해 국산차 선호도 정보를 효과적으로 제공함으로써 소비자와 제조업체 모두에게 가치 있는 인사이트를 제공한 의미 있는 경험이었다.
 
 
