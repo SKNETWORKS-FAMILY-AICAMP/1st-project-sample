@@ -1,6 +1,6 @@
 # 1st-project-sample
 ### 프로그래밍과 데이터 기초 교과목 단위 프로젝트 SR(Software Requirement) 안내 
-수강생들이 아래 ReadMe.md 가이드에 맞게 프로젝트를 기획하고 개발할 수 있도록 돕습니다. 
+수강생들이 아래 ReadMe.md 가이드 양식에 맞게 개발 문서를 작성할 수 있도록 돕습니다. 
 
 
 <br><br><br>
