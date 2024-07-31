@@ -85,16 +85,23 @@ YYYY-MM-DD ~ YYYY-MM-DD
 
 
 ## 5. 요구사항 명세서
-[요구사항 명세서 템플릿 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
-![image](https://github.com/user-attachments/assets/9b6ca273-2688-49d6-a517-7a1145f5018c)
-
+사용자 요구사항 정의서는 고객의 요청 사항을 실제 개발에 적용할 수 있는 수준으로 요구사항을 재정의하여 기술한 문서입니다. 사용자 요구사항 정의서를 통해 프로젝트의 범위가 규정되어 불필요한 기능 개발로 인한 시간 및 자원 낭비를 방지하고 추후 프로젝트의 결과물을 회고하는 자료가 되기도 합니다. 
+<br>[요구사항 명세서 템플릿 예시](https://www.notion.so/playdatacademy/0fb332c0e00246a58f63a16a14c0ef63)
+<br>![image](https://github.com/user-attachments/assets/9b6ca273-2688-49d6-a517-7a1145f5018c)<br>
+- 요구사항 ID : 요구사항별로 유일한 ID를 부여하여 기입합니다.<br>
+- 요구사항명 : 도출된 요구사항을 요약할 수 있는 명칭을 기입합니다.<br>
+- 구분 : 도출된 요구사항을 기능 / 성능 / 품질 / 인터페이스 / 데이터 / 운영 / 제약사항 중에서 선택하여 기재합니다.<br>
+- 요구사항 설명 : 사용자 요구사항을 구체적이고 상세하게 기술합니다.<br>
+- 중요도 : 해당 요구사항의 전체 시스템 구현 측면에서의 중요도를 기술합니다. (상, 중, 하)<br>
+- 비고 : 항목에 포함되지 않으나, 고려해야 할 사항이 있으면 기술합니다.<br>
 
 
 <br><br><br>
 
 ## 6. ERD 설계서
-[ ERD 설계서 템플릿 예시](https://www.erdcloud.com/d/TzHsgqxPRGzWGzytR)
-![image](https://github.com/user-attachments/assets/f16d790a-460d-4aec-bc43-4fdf53e6b071)
+ERD는 실체(Entity), 관계(Relationship), 속성(Attribute) 간의 관계를 그래픽으로 표현한 다이어그램입니다.<br> ERD의 주된 목적은 데이터베이스의 논리적 구조를 시각화하여, 데이터와 이들 간의 관계를 쉽게 이해하고 분석할 수 있도록 돕는 것입니다. <br>주로 데이터베이스 설계의 초기 단계에서 사용되며, 요구사항 분석과 개념적 설계 과정에서 중요한 역할을 합니다. <br> 또한 ERD는 엔터티 간의 관계, 엔터티가 가지는 속성, 기본 키(Primary Key) 등 데이터의 논리적 관계에 대한 정보를 제공합니다.<br>
+<br>[ ERD 설계서 템플릿 예시](https://www.erdcloud.com/d/TzHsgqxPRGzWGzytR)
+<br>![image](https://github.com/user-attachments/assets/f16d790a-460d-4aec-bc43-4fdf53e6b071)
 
 
 
